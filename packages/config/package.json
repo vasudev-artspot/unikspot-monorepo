@@ -1,0 +1,9 @@
+{
+  "name": "@shared/config",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./tsconfig.base.json": "./tsconfig.base.json",
+    "./tailwind.config.js": "./tailwind.config.js"
+  }
+}

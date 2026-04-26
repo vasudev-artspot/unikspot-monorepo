@@ -1,0 +1,12 @@
+{
+  "extends": "@shared/config/tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@shared/auth": ["./src"],
+      "@shared/auth/*": ["./src/*"],
+      "@shared/utils": ["../utils/src"],
+      "@shared/utils/*": ["../utils/src/*"]
+    }
+  },
+  "include": ["src"]
+}
