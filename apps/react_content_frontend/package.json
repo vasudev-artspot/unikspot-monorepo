@@ -8,7 +8,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"No tests yet\" && exit 0",
+    "test:coverage": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
     "@shared/api": "workspace:*",

@@ -10,7 +10,9 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "test": "echo \"No tests yet\" && exit 0",
+    "test:coverage": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
     "@shared/utils": "workspace:*"

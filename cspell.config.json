@@ -1,0 +1,71 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "files": ["apps/**/*.{ts,tsx}", "packages/**/*.{ts,tsx}", "*.md", ".github/**/*.yml"],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    ".turbo",
+    "pnpm-lock.yaml",
+    "*.config.js",
+    "*.config.ts",
+    "coverage"
+  ],
+  "words": [
+    "monorepo",
+    "turbo",
+    "turborepo",
+    "pnpm",
+    "vite",
+    "vitejs",
+    "tailwind",
+    "autoprefixer",
+    "postcss",
+    "tsconfig",
+    "tsbuildinfo",
+    "tseslint",
+    "eslintrc",
+    "knip",
+    "cspell",
+    "rect",
+    "unik",
+    "unikspot",
+    "strictmode",
+    "createroot",
+    "noop",
+    "noemit",
+    "readonly",
+    "unassigned",
+    "ELIFECYCLE",
+    "esbuild",
+    "rolldown",
+    "axios",
+    "dto",
+    "dtos",
+    "intellisense",
+    "endofline",
+    "arrowparens",
+    "trailingcomma",
+    "singlequote",
+    "bracketspacing",
+    "printwidth",
+    "tabwidth"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.{ts,tsx}",
+      "words": [
+        "focusable",
+        "interactable",
+        "debounce",
+        "unsubscribe",
+        "middleware",
+        "nullable",
+        "falsy",
+        "truthy",
+        "readonly",
+        "typename"
+      ]
+    }
+  ]
+}
